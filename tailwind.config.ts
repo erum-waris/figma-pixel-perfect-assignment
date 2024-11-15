@@ -9,9 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        myBlack:"#000",
+        myNav:"#F1F1F1",
+        myPink:"#faf5f5",
+        myFooter:"#FAF5F5",
+        btnShadow:"",
+        homeBg:"",
+        recentBg:"#F4E2E2",
+        footerBg:"",
+
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        heebo: ["heebo", "serif", "sans-serif"],
+        inter: ["inter", "sans-serif"]
+      },
+      
     },
   },
   plugins: [],
