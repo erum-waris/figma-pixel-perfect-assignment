@@ -7,16 +7,14 @@ const heebo = Heebo({ subsets: ['latin'] });
 
 function Footer() {
   return (
-    <div className=" mx-auto w-[1440px] relative top-[2239px] bg-myFooter h-[243px] py-10">
-
-
-        <Link href="/" className="text-[30px] text-[#21243D]  absolute top-[2288px] left-[578px]"> <FaFacebookSquare /></Link>
-            <Link href="/" className="text-[30px] text-[#21243D] absolute top-[2288px] left-[659px]"> <FaInstagram /></Link>
-            <Link href="/" className="text-[30px] text-[#21243D]  absolute top-[2288px] left-[740px]"> <FaTwitter /> </Link>
-            <Link href="/" className="text-[30px] text-[#21243D]  absolute top-[2288px] left-[827px]"> <FaLinkedin /></Link>
-      
-        <p className={`${heebo.className} absolute left-[543px] top-[2354.67px] leading-[32.31px] font-[500] w-[354px] h-[32px] text-myBlack text-[22px]`}> Copyright ©2020 All rights reserved </p>
-    </div>
+    <div className=" w-[1440px] relative bg-myFooter h-[243px] mx-auto top-[1560px]">
+    <Link href="/" className="text-[30px] text-[#21243D]  absolute left-[578px]"> <FaFacebookSquare /></Link>
+        <Link href="/" className="text-[30px] text-[#21243D] absolute left-[659px]"> <FaInstagram /></Link>
+        <Link href="/" className="text-[30px] text-[#21243D]  absolute left-[740px]"> <FaTwitter /> </Link>
+        <Link href="/" className="text-[30px] text-[#21243D]  absolute left-[827px]"> <FaLinkedin /></Link>
+  
+    <p className={`${heebo.className} absolute left-[543px] leading-[32.31px] pt-16 font-[500] w-[354px] h-[32px] text-myBlack text-[22px]`}> Copyright ©2020 All rights reserved </p>
+</div>
   )
 }
 

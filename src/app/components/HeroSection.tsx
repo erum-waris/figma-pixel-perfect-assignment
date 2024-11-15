@@ -3,7 +3,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <section className='w-[1440px] h-[800px] left-[-2.5px] pb-9'>
+    <section className='relative w-[1440px] h-[800px] left-[-2.5px] pb-9'>
         <div className='font-heebo absolute top-[249px] left-[231px] w-[521px] h-[124px] leading-[61px]'>
             <h1 className='text-[48px] font-[900] mb-5'>Hi, I am John <br />
              Creative Technologist</h1>
